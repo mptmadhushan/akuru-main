@@ -1,0 +1,44 @@
+.video-uploader {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .video-preview {
+    position: relative;
+  }
+  
+  .video-preview video {
+    width: 100%;
+  }
+  
+  .video-preview button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .video-dropzone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 2px dashed #0d6efd;
+    padding: 20px;
+    background-color: #dceaff;
+  }
+  
+  .video-dropzone p {
+    margin-bottom: 20px;
+  }
+    
+  .custom-file-input {
+    
+    color: transparent;
+    border: none;
+  }
+  
+  .custom-file-input:focus {
+    box-shadow: none;
+  }

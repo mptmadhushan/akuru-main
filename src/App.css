@@ -1,0 +1,197 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+.App-header {
+  background-image: linear-gradient(to bottom, #a101a1, #650291);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 10px;
+  overflow: auto;
+}
+
+.top-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.sinhala_main_text {
+  font-family: 'Noto Sans Sinhala', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.main_text{
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.formCard_row {
+ justify-content: space-between;
+}
+
+.formCard_col {
+ justify-content: space-between;
+ align-items: center;
+
+}
+
+/* Default styles for image and button */
+.alphebet_image {
+  width: 100%;
+  height: auto;
+}
+
+.teacher_image {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.formCard_button {
+  font-size: 20px;
+  height: auto;
+  background-image: linear-gradient(to bottom, #B20AE6, #D915FB);
+  color: white;
+  width: 200px;
+}
+.centerDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.upload_button {
+  font-size: 20px;
+  height: auto;
+  background-image: linear-gradient(to bottom, #182A9A, #700299);
+  color: white;
+ 
+}
+
+.upload_button1 {
+  font-size: 20px;
+  height: auto;
+  background-color: #F98585;
+  color: white;
+  margin-left: 300px;
+  width: 200px;
+  
+}
+.image_card{
+  background-color: #e9e0ec;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  height: 0.4vh;
+  width: 0.8vw;
+  border: none;
+  
+}
+.image_view{
+  height: 0.4vh;
+  width: 0.8vw;
+}
+
+.beginner{
+ 
+  color: #73915D;
+}
+.intermediate{
+
+  color: #FFD7FF;
+}
+.expert{
+
+  color: #005B9E;
+}
+.beginner2{
+  background-image: linear-gradient(to bottom, #D3FD03, #31FF14);
+  color: #73915D;
+}
+.intermediate2{
+  background-image: linear-gradient(to bottom, #7401FE, #AC01FF);
+  color: #FFD7FF;
+}
+.expert2{
+  background-image: linear-gradient(to bottom, #02FC98, #01F2E9);
+  color: #005B9E;
+}
+.card{
+  background-color: #650291;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  height: 270px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.meta_title{
+  
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Media queries for different screen sizes */
+@media screen and (max-width: 576px) {
+  /* Small screens */
+  .alphebet_image {
+    width: 100%;
+    height: auto;
+  }
+
+  .teacher_image {
+    padding-top: 60px;
+    width: 100%;
+    height: auto;
+   
+    padding-bottom: 20px;
+    
+  }
+
+  .formCard_button {
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  /* Medium screens */
+  .alphebet_image {
+    width: 100%;
+    height: auto;
+  }
+
+  .teacher_image {
+    width: 100%;
+    height: auto;
+  }
+
+  .formCard_button {
+    font-size: 18px;
+    padding: 10px 18px;
+  }
+}
+
+/* Add more media queries for larger screen sizes if needed */
+
